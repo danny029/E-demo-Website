@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+ *{
+     
+
+     margin: 0px;
+     padding: 0px;
+     border box-sizing: border-box;
+     font-family: 'Open Sans', sans-serif;
+     
+ }
+  
+#colour{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px  rgba(0,0,0,.25);
+    background:violet ;
+}
+.navbar .navbar-brand{
+    font-size: x-large;
+    font-family: 'Macondo', cursive;
+}
+#navbarSupportedContent a{
+    color: black;
+    border-bottom: 1.5PX solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 1.5PX solid white ;
+}
+#navbarSupportedContent button{
+    background: white;
+    width: 5.3rem;
+    border: radius 9px;
+}
+#home{
+
+    width: 100%;
+    min-height:100vh ;
+    display: flex;
+    
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+  background: url(https://luxurywatchbuyer.com/wp-content/uploads/2015/11/banner-1_1200x360.jpg);
+    background-size: cover;
+   background-position: center;
+
+}
+#home h1{
+    font-size: 90px;
+    color: white;
+    text-align:right;
+    margin-left: 430px; 
+}
+#clasbtn{
+    margin-left: 45px;
+    margin-right: 10px;
+    opacity: 50%;
+    text color: red;
+}
+#twoclock{
+    margin-right: 53px;
+    background: violet;
+    color:black;
+}
+#about{
+    background-color: pink;
+}
+#hotel{
+    margin-top:22%;
+     margin-left: 19%;
+}
+#about h1{
+    font-weight: 400;
+    font-size: 50px;
+
+}
+#Purchase{
+    background-color:rgb(233, 232, 232);
+    margin-top: -3.5%;
+    padding-top: 1.5%;
+    padding-bottom: 50px;
+}
+.card{
+    padding-top: 25px;
+    box-shadow: 8.5px 16px 16px rgba(0,0,0,.2);
+    justify-content: center;
+    align-items: center;
+    margin: 20px 40px;
+}
+.card:hover{
+    transform-style: flat;
+    color: red;
+    transition: .25;
+}
+#contact{
+    background-color: pink;
+}
+
+#contact h1{
+    color: black;
+    font-weight: 400;
+    font-size: 50px;
+    padding-left: 37%;
+    padding-top: 3.5%;
+}
+#profile{
+   width: 20%;
+   height: 30%;
+   margin-left: 450px;
+   padding-top: 20px;
+}
+#clasbtn{
+    margin-left: 35%; 
+    margin-right: 2%;
+    width: 30%;
+   height: 40%;
+   background-color: black;
+   margin-top: 12px;
+   
+}
+#imageses{
+    height: 90%;
+    width: 90%;
+}
+.box{
+    width: 80%;
+    margin-top: 35px;
+}
+#more{
+    margin-left: 35%;
+    
+}
+
+#phone input{
+    margin: 450% 0px;
+}
